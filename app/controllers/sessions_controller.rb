@@ -4,7 +4,7 @@ class SessionsController < ApplicationController
   end
   
   def create
-    redirect_to '/sessions/login'
+    redirect_to '/login'
   end
   
   def destroy
